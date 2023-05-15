@@ -7,11 +7,13 @@
     <title>Document</title>
     <script>
         var pi=Math.PI;
+
         function f(r,h){
             return pi*r*r*h;
         }
-
-        alert(f(3,5));
+        var r=parseInt(prompt("* 원의 반지름 입력 : ","입력"));
+        var height=parseInt(prompt("* 윈기둥의 높이 입력 : ","입력"));
+        alert(f(r,height));
     </script>
 </head>
 <body>
