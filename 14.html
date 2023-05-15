@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        document.querySelector("h1").style.backgroundColor="red";
-        document.querySelector("h2").style.backgroundColor="red";
+        function changeBGColor(){
+            document.querySelector("h1").style.backgroundColor="red";
+            document.querySelector("h2").style.backgroundColor="yellow";
+        }
     </script>
 </head>
-<body>
+<body onload="changeBGColor()">
+
     <h1>첫번째</h1>
     <h2>두번째</h2>
+    <!-- <script>
+        changeGBColor();
+    </script> -->
 </body>
 </html>
