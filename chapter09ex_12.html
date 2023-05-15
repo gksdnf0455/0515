@@ -7,13 +7,11 @@
     <title>Document</title>
     <script>
         var pi=Math.PI;
-        var height=3,r=5;
-        function f(r){
-            return r*r;
+        function f(r,h){
+            return pi*r*r*h;
         }
-        var boo=(pi*f(r))*(f(r)*pi)*height;
 
-        alert(boo);
+        alert(f(3,5));
     </script>
 </head>
 <body>
